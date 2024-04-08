@@ -3,7 +3,7 @@ import os  # Import the OS module for environment variables
 from spotipy import Spotify  # Import the Spotify module from Spotipy
 from spotipy.oauth2 import SpotifyOAuth  # Import SpotifyOAuth for authentication
 from spotipy.cache_handler import FlaskSessionCacheHandler  # Import FlaskSessionCacheHandler for caching sessions
-from main import lst  # Import the 'lst' variable from the main module
+from titles import lst  # Import the 'lst' variable from the main module
 
 # Initialize the Flask app
 app = Flask(__name__)
