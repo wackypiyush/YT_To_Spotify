@@ -11,16 +11,16 @@ This project allows you to sync a YouTube playlist with a Spotify playlist. It r
 
 ## Installation
 1. Clone this repository to your local machine.
-2. Install the required packages using _pip install -r requirements.txt_.
+2. Install the required packages using `pip install -r requirements.txt`.
 3. Replace your YouTube API key, Spotify client ID, and client secret.
 4. Can get you Google API by following https://blog.hubspot.com/website/how-to-get-youtube-api-key
 5. Can get your Spotify credentials using Spotify Developers.
 
 ## Usage
-1. Run _titles.py_ to retrieve titles of videos from a YouTube playlist.
+1. Run `titles.py` to retrieve titles of videos from a YouTube playlist.
 > URL of playlist looks like this: https://www.youtube.com/watch?v=OW6yRfdrfgU&list=PL13f76aevJUXNvJU3Bbtymq3btS6TaBma
-You need to pass the list parameter of this link to the playlist_id.
-2. Run the Flask app by executing flask run in the terminal or _python spotify.py_
+You need to pass the list parameter of this link to the `playlist_id`.
+2. Run the Flask app by executing `flask run` in the terminal or `python spotify.py`
 > Access the app in your browser (usually at http://localhost:5000/).
 
 ## Features
@@ -34,4 +34,4 @@ Contributions are welcome! Please follow the standard guidelines.
 
 ### Acknowledgments
 Thanks to Google and Spotify for their APIs.
-Inspiration from real life problem!
+Inspiration from real life problem! 🎵😄
